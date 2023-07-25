@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- * daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- ! daisyui end -->
+    <!-- *fontawsome kit -->
+<script src="https://kit.fontawesome.com/ebf50d4cc2.js" crossorigin="anonymous"></script>
+<!-- *font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- ! font end -->
+<!-- * custom css -->
+<style>
+    .lato{
+        font-family: 'Lato', sans-serif;
+    }
+    .popins{
+        font-family: 'Poppins', sans-serif; 
+    }
+</style>
     <title>Food Brust</title>
 </head>
 <body>
-    
+    <header class="max-w-screen-lg mx-auto my-10">
+<!-- * nav -->
+<nav>
+    <div class="navbar bg-base-100 bg-[#F85559] rounded-full border-2 px-5">
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-white">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-62">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+              <div class="navbar-end relative inline-block">
+                <input type="text" placeholder="      Search here" class="lg:ml-10 lg:pr-8 p-1 rounded-2xl"><i class="fa-solid fa-magnifying-glass absolute lg:right-20 top-1 text-base pointer-events-none text-black"></i>
+              </div>
+            </ul>
+          </div>
+        <div class="ml-20 flex items-center gap-2 justify-center">
+            <img class="w-1/4" src="./images/logo.png" alt="">
+            <h2 class="text-white lato text-2xl font-bold">Fruit Burst</h2>
+        </div>
+        </div>
+       
+        <div class="navbar-end relative lg:inline-block hidden ">
+          <input type="text" placeholder="      Search here" class=" lg:ml-10  lg:pr-8 p-1 rounded-2xl"><i class="fa-solid fa-magnifying-glass absolute lg:right-20 top-1 text-base pointer-events-none text-black"></i>
+        </div>
+      </div>
+</nav>
+<!-- ! nav end -->
+    </header>
+    <main class="max-w-screen-lg mx-auto my-10">
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

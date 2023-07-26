@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- * daisyui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+         <!-- ! daisyui end -->
+    <title>Document</title>
+</head>
+<body>
+ <!-- *popup button -->
+<button>
+    <button class="text-[#F85559]" onclick="hot.showModal()">Details</button>
+<dialog id="hot" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box ">
+    <div class=" text-center justify-center">
+        <img class="w-1/4 flex justify-center mx-auto mb-6" src="./images/fruit6.png" alt="">
+    <h3 class="font-bold text-lg my-3">Apple</h3>
+    <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="rating rating-base rating-half mb-6">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+      </div>
+<!-- * bottom buttons -->
+<div class="flex justify-center gap-7 items-center ">
+    <div class="modal-action">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn btn-outline btn-error">Close</button>
+      </div>
+      <button class="btn btn-error text-white mt-5">Buy Now</button>
+</div>
+<!-- ! bottom button end -->   
+    </div>
+  </form>
+</dialog>
+</button>
+<!-- ! popup button end -->
+</body>
+</html>
